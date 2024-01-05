@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url(https://png.pngtree.com/background/20230417/original/pngtree-website-electronic-technology-picture-image_2447237.jpg);
+}
+.login-container {
+    width: 300px;
+    padding: 16px;
+    backdrop-filter: blur(8px);
+    margin: 0 auto;
+    margin-top: 100px;
+    border: solid #F09D5A;
+    border-radius: 14px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 4px;
+}
+
+.login-container input[type="password"] {
+    margin-bottom: 24px;
+    padding: 8px;
+    border: 1px solid #F09D5A;
+    border-radius: 4px;
+}
+.login-container input[type="email"] {
+    margin-bottom: 24px;
+    padding: 8px;
+    border: 1px solid #F09D5A;
+    border-radius: 4px;
+}
+
+
+.login-container input[type="checkbox"] {
+    margin-bottom: 24px;
+}
+
+.submit {
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(246, 251, 163) 10%, rgb(102, 243, 246) 45%, rgb(254, 191, 33) 100% );
+    border: none;
+    color: #804009;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: .5s ;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+.submit:hover {
+    background: linear-gradient(90deg, rgb(254, 191, 33) 10%, rgb(246, 251, 163) 45%, rgb(102, 243, 246 ) 100%);
+    color: #0E212B;
+    transition: all .1s ease-in-out;
+
+}
+
+.ali a {
+    color: orange;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.login-container a:hover {
+    text-decoration: white underline;
+}
+/* linear-gradient(90deg, rgb(246, 251, 163) 10%, rgb(102, 243, 246) 45%, rgb(254, 191, 33) 100% ); */
+
+/* background: linear-gradient(90deg, var(--c1, rgb(246, 251, 163)), var(--c2, rgb(102, 243, 246)) 51%, var(--c3, rgb(254, 191, 33))100%)var(--x, 0)/ 200%; */
+
+.submit:hover  { --x: 100%
+}
+
+/* .button1 {
+    --c1:  rgb(254, 191, 33);
+    --c2: rgb(246, 251, 163);
+    --c3: rgb(102, 243, 246);
+}
+    
+    /* color: black;
+} */ 
